@@ -93,7 +93,7 @@ The project is deployed online and can be accessed via [Your Vercel Deployment L
 ### Local Development (If you want to run a local development server):
 ```bash
 # Clone the repo
-git clone [https://github.com/your-team/GroqScreenQuiz](https://github.com/your-team/GroqScreenQuiz)
+git clone [https://github.com/SuhainaFathimaM/GroqScreen-Quiz](https://github.com/SuhainaFathimaM/GroqScreen-Quiz)
 
 # Navigate to the project directory
 cd GroqScreenQuiz
