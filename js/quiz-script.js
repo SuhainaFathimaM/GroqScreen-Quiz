@@ -42,7 +42,7 @@ function loadQuestionData(combinedOutput) {
     }
 
     for (let i = 1; i <= 5; i++) {
-        const regex = new RegExp(`### Question${i}:\\s*(.*?)\\s*A\\)\\s*(.*?)\\s*B\\)\\s*(.*?)\\s*C\\)\\s*(.*?)\\s*\\*Correct Answer:\\*\\*\\s*([ABC])\\)`, 's');
+        const regex = new RegExp(`### Question${i}:\\s*(.*?)\\s*A\\)\\s*(.*?)\\s*B\\)\\s*(.*?)\\s*C\\)\\s*(.*?)\\s*\\**Correct Answer:\\*\\*\\s*([ABC])\\)`, 's');
         const match = combinedOutput.match(regex);
         if (match) {
             const questionData = {
