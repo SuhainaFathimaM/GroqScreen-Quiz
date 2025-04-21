@@ -19,15 +19,14 @@ GroqScreen Quiz is a creative and interactive multimodal application powered by 
 
 ## 🧠 Team & Approach
 
-### Team Name:
-`CogniCapture`
+### Team Name: NA
 
-### Team Members:
-- Name 1 (GitHub/LinkedIn/Role - Frontend & UX Developer)
-- Name 2 (GitHub/LinkedIn/Role - Backend & AI Integration Specialist)
-- Name 3 (GitHub/LinkedIn/Role - Testing & Documentation)
+### Solo Hacker:
+- Suhaina Fathima M
+- https://github.com/SuhainaFathimaM
+- https://www.linkedin.com/in/suhaina-fathima-m/
 
-### Your Approach:
+### Our Approach:
 - We chose the "Weave AI Magic With Groq" problem because we recognized the immense potential of Groq's speed and multimodal capabilities to transform how individuals learn online. The challenge of actively engaging with digital educational content and efficiently testing comprehension resonated with our team's desire to build innovative learning tools.
 - Key challenges we addressed included capturing screen content effectively, seamlessly integrating Groq's Vision and Language models for both summarization and quiz generation, and designing an intuitive user experience that streamlines the learning process. We focused on crafting precise prompts to guide Groq in generating accurate and relevant summaries and engaging quiz questions directly related to the captured material.
 - During the hacking process, we experimented with different approaches for content extraction and prompt engineering. The speed of Groq's API allowed for rapid iteration and refinement of our AI interactions. A key breakthrough was realizing the power of combining Groq's vision analysis with subsequent language processing to create contextually rich summaries and quizzes.
@@ -75,9 +74,9 @@ Add images, GIFs, or screenshots if helpful!
 
 ## ✅ Tasks & Bonus Checklist
 
-- [ ] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)
-- [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)** (Details in Participant Manual)
-- [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)** (Details in Participant Manual)
+- [x] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)
+- [x] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)** (Details in Participant Manual)
+- [x] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)** (Details in Participant Manual)
 
 ---
 
