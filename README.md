@@ -111,3 +111,26 @@ npm install  # Or yarn install
 
 # Run the local backend (for testing purposes - requires Node.js)
 node analyze.js
+```
+Note: For the full Groq-powered experience, deploy the api/analyze.js as a Vercel Serverless Function and configure the GROQ_API_KEY as an environment variable in your Vercel project settings. Ensure your frontend JavaScript in quiz.html is correctly calling the Vercel API endpoint (/api/analyze).
+
+## 🧬 Future Scope
+
+List improvements, extensions, or follow-up features:
+
+- 📈 Integration with audio analysis using Groq's multimodal capabilities (if available).
+- ✨ Enhanced UI/UX for a more engaging learning environment.
+- ☁️ Cloud storage for captured learning materials and quiz results.
+- 🤖 Personalized quiz generation based on user learning patterns.
+- 🌐 Support for various screen capture methods and tools.
+- 🔗 Ability to save and share generated summaries and quizzes.
+
+## 📎 Resources / Credits
+
+- Groq Cloud Vision API: The core technology powering the multimodal analysis, summarization, and quiz generation.
+- Vercel: For seamless deployment and hosting of the frontend and backend Serverless Functions.
+- node-fetch, multer: JavaScript libraries used in the backend (Vercel Function) for API calls and file handling.
+
+## 🏁 Final Words
+
+Developing GroqScreen Quiz for this hackathon has been an exciting exploration of the synergy between AI and learning. Leveraging Groq's impressive speed and multimodal potential allowed us to create a truly interactive and innovative learning tool. We believe this project demonstrates the power of AI to actively engage learners and enhance knowledge retention. The low latency of Groq's inference was particularly impactful in creating a fluid and responsive user experience. We are eager to continue developing this project and explore further ways to weave AI magic into the future of learning.
