@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+<body>
+    <h1>Quiz Time!</h1>
+
+    <div id="summary-container">
+        <h2>Summary:</h2>
+        <p id="summary-content"></p>
+        <button id="start-quiz-button">Start Quiz</button>
+    </div>
+
+    <div id="quiz-container">
+        <h2>Answer these questions based on the summary:</h2>
+        <form id="quiz-form">
+            <div id="question-1-wrapper" class="question-wrapper">
+                <div class="question-header"><span class="question-number">1.</span> <label id="q1-text"></label></div>
+                <ul class="options-list">
+                    <li class="option-item">
+                        <input type="radio" id="q1-a" name="q1-answer" value="A" class="option-input">
+                        <label for="q1-a" class="option-label"><span class="option-text" id="q1-a-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q1-b" name="q1-answer" value="B" class="option-input">
+                        <label for="q1-b" class="option-label"><span class="option-text" id="q1-b-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q1-c" name="q1-answer" value="C" class="option-input">
+                        <label for="q1-c" class="option-label"><span class="option-text" id="q1-c-text"></span></label>
+                    </li>
+                </ul>
+                <div id="q1-feedback" class="question-feedback"></div>
+            </div>
+
+            <div id="question-2-wrapper" class="question-wrapper" style="display: none;">
+                <div class="question-header"><span class="question-number">2.</span> <label id="q2-text"></label></div>
+                <ul class="options-list">
+                    <li class="option-item">
+                        <input type="radio" id="q2-a" name="q2-answer" value="A" class="option-input">
+                        <label for="q2-a" class="option-label"><span class="option-text" id="q2-a-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q2-b" name="q2-answer" value="B" class="option-input">
+                        <label for="q2-b" class="option-label"><span class="option-text" id="q2-b-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q2-c" name="q2-answer" value="C" class="option-input">
+                        <label for="q2-c" class="option-label"><span class="option-text" id="q2-c-text"></span></label>
+                    </li>
+                </ul>
+                <div id="q2-feedback" class="question-feedback"></div>
+            </div>
+
+            <div id="question-3-wrapper" class="question-wrapper" style="display: none;">
+                <div class="question-header"><span class="question-number">3.</span> <label id="q3-text"></label></div>
+                <ul class="options-list">
+                    <li class="option-item">
+                        <input type="radio" id="q3-a" name="q3-answer" value="A" class="option-input">
+                        <label for="q3-a" class="option-label"><span class="option-text" id="q3-a-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q3-b" name="q3-answer" value="B" class="option-input">
+                        <label for="q3-b" class="option-label"><span class="option-text" id="q3-b-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q3-c" name="q3-answer" value="C" class="option-input">
+                        <label for="q3-c" class="option-label"><span class="option-text" id="q3-c-text"></span></label>
+                    </li>
+                </ul>
+                <div id="q3-feedback" class="question-feedback"></div>
+            </div>
+
+            <div id="question-4-wrapper" class="question-wrapper" style="display: none;">
+                <div class="question-header"><span class="question-number">4.</span> <label id="q4-text"></label></div>
+                <ul class="options-list">
+                    <li class="option-item">
+                        <input type="radio" id="q4-a" name="q4-answer" value="A" class="option-input">
+                        <label for="q4-a" class="option-label"><span class="option-text" id="q4-a-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q4-b" name="q4-answer" value="B" class="option-input">
+                        <label for="q4-b" class="option-label"><span class="option-text" id="q4-b-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q4-c" name="q4-answer" value="C" class="option-input">
+                        <label for="q4-c" class="option-label"><span class="option-text" id="q4-c-text"></span></label>
+                    </li>
+                </ul>
+                <div id="q4-feedback" class="question-feedback"></div>
+            </div>
+
+            <div id="question-5-wrapper" class="question-wrapper" style="display: none;">
+                <div class="question-header"><span class="question-number">5.</span> <label id="q5-text"></label></div>
+                <ul class="options-list">
+                    <li class="option-item">
+                        <input type="radio" id="q5-a" name="q5-answer" value="A" class="option-input">
+                        <label for="q5-a" class="option-label"><span class="option-text" id="q5-a-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q5-b" name="q5-answer" value="B" class="option-input">
+                        <label for="q5-b" class="option-label"><span class="option-text" id="q5-b-text"></span></label>
+                    </li>
+                    <li class="option-item">
+                        <input type="radio" id="q5-c" name="q5-answer" value="C" class="option-input">
+                        <label for="q5-c" class="option-label"><span class="option-text" id="q5-c-text"></span></label>
+                    </li>
+                </ul>
+                <div id="q5-feedback" class="question-feedback"></div>
+            </div>
+
+            <div class="navigation-buttons">
+                <button type="button" id="prev-button">Previous</button>
+                <button type="button" id="next-button">Submit Quiz</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="results-container">
+        <h2>Quiz Results</h2>
+        <p class="score"></p>
+        <h3>Answer Breakdown:</h3>
+        <ul id="results-list"></ul>
+    </div>
+
+    <script src="js/quiz-script.js">
+        
+    </script>
+</body>
+</html>
