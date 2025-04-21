@@ -33,13 +33,12 @@ async function startFullScreenCapture() {
         captureFullScreenStartButton.disabled = true;
         captureFullScreenStartButton.innerHTML = '<span>🔴</span> Capturing... (0)'; // Visual feedback for active capture
         captureFullScreenStopButton.disabled = false;
-        capturedImageDataURLs.length = 0; 
+        capturedImageDataURLs.length = 0;
         screenshotCount = 0;
-        // updateStartButtonText();
-        captureFullScreenInterval(); 
+        captureFullScreenInterval();
         showConfirmation('Screen capture started...');
 
-        
+
         fullScreenVideoTrack.onended = () => {
             stopFullScreenCapture();
         };
@@ -47,11 +46,11 @@ async function startFullScreenCapture() {
     } catch (error) {
         console.error('Error accessing display media:', error);
         captureFullScreenStartButton.disabled = false;
-        captureFullScreenStartButton.innerHTML = `<span>▶️</span> Start Capture (0)`; 
+        captureFullScreenStartButton.innerHTML = `<span>▶️</span> Start Capture (0)`;
         captureFullScreenStopButton.disabled = true;
         isFullScreenCapturing = false;
         showConfirmation('Failed to start screen capture.', 3000);
-        
+
     }
 }
 
@@ -61,7 +60,7 @@ async function captureFullScreenFrame() {
     }
     try {
         const imageCapture = new ImageCapture(fullScreenVideoTrack);
-        const bitmap = await imageCapture.grabFrame(); 
+        const bitmap = await imageCapture.grabFrame();
 
         const canvas = document.createElement('canvas');
         canvas.width = bitmap.width;
@@ -71,26 +70,26 @@ async function captureFullScreenFrame() {
         const imageDataURL = canvas.toDataURL('image/png');
         capturedImageDataURLs.push(imageDataURL);
         screenshotCount++;
-        updateStartButtonTextCapturing(); 
+        updateStartButtonTextCapturing();
 
     } catch (error) {
         console.error('Error capturing full screenshot frame:', error);
         showConfirmation('Error capturing frame.', 2000);
-        
+
     }
 }
 
 function captureFullScreenInterval() {
     if (isFullScreenCapturing) {
         captureFullScreenFrame();
-        setTimeout(captureFullScreenInterval, 5000); 
+        setTimeout(captureFullScreenInterval, 5000);
     }
 }
 
 function stopFullScreenCapture() {
     isFullScreenCapturing = false;
     captureFullScreenStartButton.disabled = false;
-    updateStartButtonText(); 
+    updateStartButtonText();
     captureFullScreenStopButton.disabled = true;
     if (fullScreenStream) {
         fullScreenStream.getTracks().forEach(track => track.stop());
@@ -120,7 +119,8 @@ async function sendAllScreenshotsForSummary() {
     });
 
     try {
-        const response = await fetch('http://localhost:3000/api/summarize-screenshots', {
+        // Update this URL to your Vercel backend API endpoint
+        const response = await fetch('/api/analyze', {
             method: 'POST',
             body: formData,
         });
