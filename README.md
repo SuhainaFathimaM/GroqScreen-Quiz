@@ -1,3 +1,4 @@
+![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 # 🚀 GroqScreen Quiz: AI-Powered Learning Recorder
 
 > Capture, Summarize, Quiz: Supercharging Learning with Groq's AI Magic.
