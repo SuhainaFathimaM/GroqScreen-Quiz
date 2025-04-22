@@ -88,7 +88,7 @@ Add images, GIFs, or screenshots if helpful!
 - Groq API Key (set as an environment variable in Vercel).
 
 ### Online Access:
-The project is deployed online and can be accessed via [https://groq-screen-quiz.vercel.app/(https://groq-screen-quiz.vercel.app/)].
+The project is deployed online and can be accessed via [https://groq-screen-quiz.vercel.app/](https://groq-screen-quiz.vercel.app/).
 
 ### Local Development (If you want to run a local development server):
 ```bash
