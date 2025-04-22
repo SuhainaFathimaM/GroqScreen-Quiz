@@ -1,4 +1,4 @@
-import { fetch } from 'node-fetch';
+import fetch from 'node-fetch';
 import multer from 'multer';
 import cors from 'cors';
 
