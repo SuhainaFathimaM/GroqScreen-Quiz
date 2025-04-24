@@ -61,8 +61,18 @@ GroqScreen Quiz is a creative and interactive multimodal application powered by 
 - ✅ **Seamless User Experience:** Intuitive workflow for capturing, processing, and engaging with learning materials and quizzes.
 
 Add images, GIFs, or screenshots if helpful!
-![images/Screenshot 2025-04-24 174836.png](https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/361a597ec52abe938eba27b454f622542a0fefc1/images/Screenshot%202025-04-24%20174836.png)
+
 <img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/361a597ec52abe938eba27b454f622542a0fefc1/images/Screenshot%202025-04-24%20174836.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20174848.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20174948.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20174957.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20174905.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20175015.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20175025.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20175035.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20175051.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20175104.png" width="300" />
+<img src="https://github.com/SuhainaFathimaM/GroqScreen-Quiz/blob/7df5451f96b1129f2ac52ecc66554de70c5ed00e/images/Screenshot%202025-04-24%20175112.png" width="300" />
 
 ---
 
