@@ -84,7 +84,7 @@ GroqScreen Quiz is a creative and interactive multimodal application powered by 
 ## 📽️ Demo & Deliverables
 
 - **Demo Video Link:** [https://youtu.be/Vb4aARqlYkk)](https://youtu.be/Vb4aARqlYkk)
-- **Pitch Deck / PPT Link:** [Paste Google Slides / PDF link here]
+- **Pitch Deck / PPT Link:** [https://www.canva.com/design/DAGlXbOltvk/-GEIESf7eo6R0P7HIlQftg/edit?utm_content=DAGlXbOltvk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAGlXbOltvk/-GEIESf7eo6R0P7HIlQftg/edit?utm_content=DAGlXbOltvk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ---
 
