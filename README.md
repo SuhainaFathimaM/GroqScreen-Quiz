@@ -112,7 +112,7 @@ The project is deployed online and can be accessed via [https://groq-screen-quiz
 git clone [https://github.com/SuhainaFathimaM/GroqScreen-Quiz](https://github.com/SuhainaFathimaM/GroqScreen-Quiz)
 
 # Navigate to the project directory
-cd GroqScreenQuiz
+cd GroqScreen-Quiz
 
 # Install frontend dependencies (if any build process is needed)
 # npm install
