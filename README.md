@@ -61,7 +61,7 @@ GroqScreen Quiz is a creative and interactive multimodal application powered by 
 - ✅ **Seamless User Experience:** Intuitive workflow for capturing, processing, and engaging with learning materials and quizzes.
 
 Add images, GIFs, or screenshots if helpful!
-![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
+![github-submission-banner](images/Screenshot 2025-04-24 174836.png)
 
 ---
 
